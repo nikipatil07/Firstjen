@@ -2,13 +2,20 @@ environments:
   - name: dev
     endpoints:
       production:
+		url: https://reqres.in/
+		config:
+            retryTimeOut: $RETRY
       sandbox:
-  - name: production
+		url: https://reqres.in/
+		config:
+            retryTimeOut: $RETRY
+  - name: prod
     endpoints:
       production:
+		url: https://reqres.in/
+		config:
+            retryTimeOut: $RETRY
       sandbox:
-
-deploy:
-  import:
-    update: true
-    preserveProvider: true
+		url: https://reqres.in/
+		config:
+            retryTimeOut: $RETRY
