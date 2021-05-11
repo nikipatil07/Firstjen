@@ -14,7 +14,7 @@ environments:
       production:
 	url: https://reqres.in/
 	config:
-            retryTimeOut: $RETRY
+            retryTimeOut: 
       sandbox:
 	url: https://reqres.in/
 	config:
