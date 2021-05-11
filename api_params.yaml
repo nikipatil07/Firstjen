@@ -6,7 +6,7 @@ environments:
 	config:
             retryTimeOut: $RETRY
       sandbox:
-	url: https://reqres.in/
+	url: https://google.com
 	config:
             retryTimeOut: $RETRY
   - name: production
